@@ -11,17 +11,53 @@
 
 .link{
     text-decoration: none;
-    color: #eaedf0;
+    color: #2D3238;
     font-size: 24px;
 }
 .link:hover{    
     transition: 400ms;
     text-decoration: underline;
 }
-.background-banner{
-    background-image: url(./img/industry_banner_steel_1440x500\ 2paragraph-banner.png);
+.background-banner-1{
+    background-image: url(./img/001.png);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: 1400px 310px;
     width: 100%;
-    height: 500px;
+    /* min-width: 800px; */
+    height: 315px;
+}
+.background-banner-2{
+    background-image: url(./img/02.png);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: 1400px 310px;
+    width: 100%;
+    height: 315px;
+}
+.background-banner-3{
+    background-image: url(./img/03.png);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: 1400px 310px;
+    width: 100%;
+    height: 315px;
+}
+.background-banner-4{
+    background-image: url(./img/04.png);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: 1400px 310px;
+    width: 100%;
+    height: 315px;
+}
+.background-banner-5{
+    background-image: url(./img/05.png);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: 1400px 310px;
+    width: 100%;
+    height: 315px;
 }
 .nav ul{
     display: flex;
@@ -51,14 +87,14 @@
 .blue-title{
     text-align: center;
     color: #6596D0;
-    padding-top: 19px;
+    padding: 30px 0;
     font-weight: bold;
     font-size: 40px;
 }
 .home-content{
     text-align: justify;
     color: #2D3238;
-    padding: 19px 119px;
+    padding: 19px 8%;
     font-size: 25px;
 }
 
@@ -90,12 +126,6 @@
     padding-top: 19px;
     font-weight: bold;
     font-size: 40px;
-}
-.projetos-content{
-    text-align: justify;
-    color: #2D3238;
-    padding: 19px 119px;
-    font-size: 25px;
 }
 
 
@@ -139,4 +169,38 @@
 .volunt-btn:hover{
     transition: 300ms;
     box-shadow: 4px 4px 4px rgb(19, 18, 18);
+}
+
+/* Página 4 - Doações e formulário */
+
+/* Main */
+
+.title-container{
+    text-align: center;
+    padding: 60px 0;
+}
+.title-container h1{
+    color: #6596D0;
+    padding-bottom: 22px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.title-container h2{
+    font-weight: bold;
+    font-size: 28px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.left-container, .right-container{
+    font-size: 24px;
+}
+.left-container img{
+    padding: 15px 0;
+}
+.right-container{
+    text-align: center;
+    padding: 50px 0;
 }
