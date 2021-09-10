@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Index */
+
+/* Header */
+
+.link{
+    text-decoration: none;
+    color: #eaedf0;
+    font-size: 24px;
+}
+.link:hover{    
+    transition: 400ms;
+    text-decoration: underline;
+}
+.background-banner{
+    background-image: url(./img/industry_banner_steel_1440x500\ 2paragraph-banner.png);
+    width: 100%;
+    height: 500px;
+}
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav li{
+    padding: 10px 50px 0px 0px;
+}
+.blue-btn{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 12px 14px;
+    border: #6596D0;
+    background: #6596D0;
+    border-radius: 12px;
+    color: #fff;
+}
+.blue-btn:hover{
+    transition: 300ms;
+    box-shadow: 4px 4px 4px rgb(19, 18, 18);
+}
+
+/* Main */
+
+.blue-title{
+    text-align: center;
+    color: #6596D0;
+    padding-top: 19px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.home-content{
+    text-align: justify;
+    color: #2D3238;
+    padding: 19px 119px;
+    font-size: 25px;
+}
+
+
+
+/* Página 1 - Projetos e Ações */
+
+/* Header */
+
+.brown-btn{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 12px 14px;
+    border: #B45E3B;
+    background: #B45E3B;
+    border-radius: 12px;
+    color: #fff;
+}
+.brown-btn:hover{
+    transition: 300ms;
+    box-shadow: 4px 4px 4px rgb(19, 18, 18);
+}
+
+/* Main */
+
+.brown-title{
+    text-align: center;
+    color: #B45E3B;
+    padding-top: 19px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.projetos-content{
+    text-align: justify;
+    color: #2D3238;
+    padding: 19px 119px;
+    font-size: 25px;
+}
+
+
+/* Página 2 - Nossa História */
+
+/* Aqui usarei apenas de um container para centralizar melhor o texto */
+
+.historia-container{
+    padding: 140px 0;
+}
+
+/* Página 3 - Voluntários */
+
+/* Main */
+
+.volunt-container{
+    display: flex;
+    align-items: stretch;
+    padding: 130px 110px;
+}
+.volunt-content{
+    text-align: justify;
+    color: #2D3238;
+    padding-right: 80px;
+    font-size: 25px;
+}
+.volunt-container-2{
+    text-align: center;
+    padding-bottom: 90px;
+}
+.volunt-btn{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 16px 20px;
+    border: #6596D0;
+    background: #6596D0;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 20px;
+}
+.volunt-btn:hover{
+    transition: 300ms;
+    box-shadow: 4px 4px 4px rgb(19, 18, 18);
+}
